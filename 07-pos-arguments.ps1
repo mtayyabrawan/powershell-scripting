@@ -1,0 +1,1 @@
+Write-Host "You have passed following positional arguments: Arguments passed: $($args.Length), Arguments: $($args)"
