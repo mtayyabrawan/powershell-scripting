@@ -1,7 +1,7 @@
-# inputs provded by user
+# arguments provided by user
 
-$CommitMessage = Read-Host "Enter commit message"
-$CommitTime = Read-Host "Enter commit time"
+$CommitMessage = $args[0]
+$CommitTime = $args[1]
 
 $ParsedTime = $CommitTime.Split(" ")
 
